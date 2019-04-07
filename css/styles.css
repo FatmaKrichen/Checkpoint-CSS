@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+.header { 
+    height: 450px;
+    background-image: url("https://images.unsplash.com/photo-1532972190883-11c46c01030b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=e301c9d8f98f85b993d535cbbeae311e");
+    background-repeat: no-repeat;
+background-size: cover;
+padding:100px;
+box-sizing: border-box;
+}
+
+
+.HELLO{
+    font-size: 90px;
+    color: white;
+    position: relative;
+    font-family: 'Bree Serif', serif;
+}
+#couleur{
+    color: blue;
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+    margin: 60px;
+}
+.division1 {
+    background-color: lightgrey;
+    display: inline-block;
+    width: 40%;
+padding: 40px;
+}
+
+.container1 {
+    padding: 10px;
+    text-align: center;
+}
+.division2{
+    color: white;
+    background-color: rgb(80, 80, 80); 
+    display: inline-block;
+    width: 40%;
+    padding: 40px;   
+}
+.container2{
+    padding: 10px;
+    text-align: center;
+}
+.division3{
+    background-color: lightgray;
+    display: inline-block;
+    width: 40%;
+    padding: 40px;
+    height:400px;
+}
+.container3{
+    padding:10px;
+    text-align: center;
+}
+
+.box:hover{
+    outline: 6px solid black;
+    transition: all 0.3s;
+    outline-offset: -6px;
+}
